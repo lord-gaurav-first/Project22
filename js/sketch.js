@@ -18,12 +18,11 @@ function preload(){
 function setup() {
 	createCanvas(800, 750);
 
-	// fairyVoice.play();
+	 fairyVoice.play();
 
 	fairy = createSprite(130, 520, 10, 10);
 	fairy.addAnimation("fairyflying",fairyImg);
 	fairy.scale =0.25;
-	fairy.debug= true;
 	fairy.setCollider('circle', 495, -16, 120);
 
 	star = createSprite(650,30);
